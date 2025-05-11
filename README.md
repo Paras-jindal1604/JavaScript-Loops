@@ -12,16 +12,18 @@ These topics are crucial for writing predictable, performant, and maintainable c
 
 ## 📌 Table of Contents
 
-1. [Loops in JavaScript](#1-loops-in-javascript)
+1. Loops in JavaScript
     - `for`, `while`, and `do...while`
     - `for...in` vs `for...of`
     - `break`, `continue`, and `return` usage
-2. [Scope of Variables](#2-scope-of-variables)
+     
+2. Scope of Variables]
     - Function Scope vs Block Scope
     - Global, Local, and Lexical Scope
     - `var` vs `let` vs `const`
     - Closures
-3. [Property Descriptors: Enumerable, Writable, Configurable](#3-property-descriptors-enumerable-writable-configurable)
+      
+3. Property Descriptors: Enumerable, Writable, Configurable
     - What are descriptors?
     - How they affect object behavior
     - When and why to use them
@@ -62,7 +64,8 @@ These topics are crucial for writing predictable, performant, and maintainable c
 JavaScript uses lexical scoping, meaning a variable’s scope is determined by its position in the source code.
 
 ### Closures
-A closure is a function that **remembers the scope** in which it was defined, even after that outer function has finished executing. It allows powerful patterns like encapsulation and currying.
+A closure is a function that **remembers the scope** in which it was defined, even after that outer function has finished executing.
+It allows powerful patterns like encapsulation and currying.
 
 ---
 
